@@ -29,7 +29,7 @@ const Register = () => {
                     <div className="mb-4">
                         <label className="block text-sm font-medium mb-2">Username:</label>
                         <input
-                            type="text"
+                            type="text" 
                             value={username}
                             onChange={(e) => setUsername(e.target.value)}
                             className="w-full p-2 border rounded"

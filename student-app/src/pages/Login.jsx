@@ -15,7 +15,7 @@ const Login = () => {
                 password,
             });
             localStorage.setItem('token', response.data.token);
-            navigate('/dashboard');
+            navigate('/dashboard'); // Redirect to /dashboard after login
         } catch (error) {
             alert('Login failed');
         }
